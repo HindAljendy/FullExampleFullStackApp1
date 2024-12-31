@@ -1,0 +1,29 @@
+.Dashbord .Sidebar img {
+    width: 150px;
+}
+.Dashbord .Sidebar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+}
+.Dashbord .Sidebar a {
+    text-decoration: none;
+
+}
+.Dashbord .Sidebar li , .Dashbord .Sidebar a {
+    font-size: 25px;
+    font-weight: 500;
+    color:rgb(84, 72, 136);
+    
+}
+.Dashbord .Sidebar button {
+    font-size: 25px;
+    font-weight: 500;
+    color:rgb(84, 72, 136);
+    border: none;
+    background-color: transparent; /* background: none */
+    cursor: pointer;
+}

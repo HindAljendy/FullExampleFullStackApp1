@@ -1,0 +1,17 @@
+.Dashbord{
+    display: flex;
+}
+.Dashbord .Sidebar{
+    width: 20vw;
+    height: 100vh;
+    background-color:  rgb(183, 178, 205);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.Dashbord .Container{
+    width: 80vw;
+    height: 100vh;
+    padding: 50px 50px 0 50px;
+}

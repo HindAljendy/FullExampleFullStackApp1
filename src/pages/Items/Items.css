@@ -1,0 +1,42 @@
+.Items .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.Items .header a{
+    text-decoration: none;
+}
+.Items .header button{
+    font-size: 15px;
+    color:white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgb(84, 72, 136);
+    padding: 20px;
+    cursor: pointer;
+}
+.Items .tabel{
+    width: 100%;
+}
+
+/* مساحة العمود */
+.Items .tabel th , .Items .tabel td{
+    width: 19%;
+    text-align: center;
+}
+.Items .tabel img{
+    width: 120px;
+}
+.Items .tabel button{
+    margin-left: 5px;
+    border: none;
+    font-size: 12px;
+    color:white;
+    outline: none;
+    border-radius: 8px;
+    background-color: rgb(84, 72, 136);
+    padding: 8px;
+    cursor: pointer;
+}
